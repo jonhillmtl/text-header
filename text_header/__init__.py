@@ -1,4 +1,5 @@
 def text_header(text):
+    text = str(text)
     splits = text.lstrip().rstrip().split('\n')
     
     print("\n{0}\n*".format("*" * 100))
